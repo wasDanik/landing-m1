@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alem - Our Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Подключаем те же шрифты -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Та же шапка, что и на главной -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-text">Alem</span>
+                </a>
+            </div>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html#about" class="nav-link">About</a></li>
+                    <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                    <li><a href="index.html#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Hero секция для страницы проектов -->
+        <section class="projects-hero">
+            <div class="container">
+                <div class="projects-hero-content">
+                    <h1 class="projects-hero-title">Our <span class="hero-highlight">Projects</span></h1>
+                    <p class="projects-hero-description">
+                        Discover the innovative solutions and educational tools we've built to transform learning experiences.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Фильтр проектов -->
+        <section class="projects-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="ai">AI & Machine Learning</button>
+                    <button class="filter-btn" data-filter="education">Educational Tools</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Сетка проектов -->
+        <section class="projects-grid-section">
+            <div class="container">
+                <div class="projects-grid">
+                    
+                    <!-- Проект 1 -->
+                    <article class="project-card" data-category="web education">
+                        <div class="project-image">
+                            <div class="image-placeholder project-img">
+                                <span>Learning Platform</span>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">View Live</a>
+                                    <a href="#" class="project-link" target="_blank">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                            <h3 class="project-title">Interactive Learning Platform</h3>
+                            <p class="project-description">
+                                A comprehensive e-learning platform with video courses, interactive quizzes, and progress tracking for students.
+                            </p>
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <span class="stat-value">5K+</span>
+                                    <span class="stat-label">Users</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-value">98%</span>
+                                    <span class="stat-label">Uptime</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Проект 2 -->
+                    <article class="project-card" data-category="mobile education">
+                        <div class="project-image">
+                            <div class="image-placeholder project-img">
+                                <span>Mobile Quiz App</span>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">View Live</a>
+                                    <a href="#" class="project-link" target="_blank">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Flutter</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">Dart</span>
+                            </div>
+                            <h3 class="project-title">Smart Quiz Mobile App</h3>
+                            <p class="project-description">
+                                An adaptive mobile quiz application that adjusts difficulty based on user performance and learning patterns.
+                            </p>
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <span class="stat-value">10K+</span>
+                                    <span class="stat-label">Downloads</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-value">4.8</span>
+                                    <span class="stat-label">Rating</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Проект 3 -->
+                    <article class="project-card" data-category="ai education">
+                        <div class="project-image">
+                            <div class="image-placeholder project-img">
+                                <span>AI Tutor</span>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">View Demo</a>
+                                    <a href="#" class="project-link" target="_blank">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">TensorFlow</span>
+                                <span class="tag">NLP</span>
+                            </div>
+                            <h3 class="project-title">AI-Powered Personal Tutor</h3>
+                            <p class="project-description">
+                                An intelligent tutoring system that provides personalized learning recommendations using machine learning algorithms.
+                            </p>
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <span class="stat-value">85%</span>
+                                    <span class="stat-label">Accuracy</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-value">2.5x</span>
+                                    <span class="stat-label">Faster Learning</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Проект 4 -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-image">
+                            <div class="image-placeholder project-img">
+                                <span>Portfolio Builder</span>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">Try It</a>
+                                    <a href="#" class="project-link" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <h3 class="project-title">Developer Portfolio Builder</h3>
+                            <p class="project-description">
+                                A drag-and-drop portfolio builder that helps developers create stunning personal websites without coding.
+                            </p>
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <span class="stat-value">1.2K</span>
+                                    <span class="stat-label">Created</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-value">4.9</span>
+                                    <span class="stat-label">Rating</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Проект 5 -->
+                    <article class="project-card" data-category="web education">
+                        <div class="project-image">
+                            <div class="image-placeholder project-img">
+                                <span>Code Editor</span>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">Open Editor</a>
+                                    <a href="#" class="project-link" target="_blank">Documentation</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">Monaco Editor</span>
+                                <span class="tag">WebSocket</span>
+                            </div>
+                            <h3 class="project-title">Collaborative Code Editor</h3>
+                            <p class="project-description">
+                                A real-time collaborative code editor with syntax highlighting and live sharing for programming education.
+                            </p>
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <span class="stat-value">50ms</span>
+                                    <span class="stat-label">Latency</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-value">99.9%</span>
+                                    <span class="stat-label">Uptime</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Проект 6 -->
+                    <article class="project-card" data-category="mobile ai">
+                        <div class="project-image">
+                            <div class="image-placeholder project-img">
+                                <span>AR Learning</span>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">View Demo</a>
+                                    <a href="#" class="project-link" target="_blank">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Unity</span>
+                                <span class="tag">ARCore</span>
+                                <span class="tag">C#</span>
+                            </div>
+                            <h3 class="project-title">AR Mathematics Tutor</h3>
+                            <p class="project-description">
+                                An augmented reality mobile app that makes learning mathematics interactive through 3D visualizations.
+                            </p>
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <span class="stat-value">75%</span>
+                                    <span class="stat-label">Better Retention</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-value">5K+</span>
+                                    <span class="stat-label">Students</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action секция -->
+        <section class="projects-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to Build Something Amazing?</h2>
+                    <p class="cta-description">
+                        Join our community of learners and start working on real-world projects that make a difference.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="index.html#contact" class="btn btn-primary">Start Your Journey</a>
+                        <a href="index.html#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Тот же футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-text">Alem</span>
+                    </div>
+                    <p class="footer-description">
+                        Transforming education in Kazakhstan through innovative technology and expert instruction.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html#about">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="index.html#faq">FAQ</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" target="_blank">Instagram</a>
+                            <a href="#" target="_blank">LinkedIn</a>
+                            <a href="#" target="_blank">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Alem. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

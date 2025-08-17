@@ -189,7 +189,7 @@ nav .nav-sun {
     background-color: #fff;
     padding: 16px 24px;
     border-radius: 10px;
-    border: 1px solid var(--Component-colors-Components-Buttons-Secondary-button-secondary-border, rgba(213, 215, 218, 1));
+    border: 1px solid  rgba(213, 215, 218, 1);
     color: #000;
     text-decoration: none;
     font-weight: 600;
@@ -450,7 +450,7 @@ nav .nav-sun {
 }
 
 .question-item.line {
-    border-top: 1px solid var(--Colors-Border-border-secondary, rgba(233, 234, 235, 1));
+    border-top: 1px solid  rgba(233, 234, 235, 1);
     padding-top: 24px;
     display: flex;
     justify-content: space-between;
@@ -500,7 +500,7 @@ footer {
 }
 
 footer .container {
-    border-top: 1px solid var(--Colors-Border-border-brand_alt, rgba(127, 86, 217, 1));
+    border-top: 1px solid  rgba(127, 86, 217, 1);
     display: flex;
     justify-content: space-between;
     padding-top: 32px;
@@ -523,7 +523,7 @@ footer .societies {
     display: flex;
     width: 100%;
     gap: 16px;
-    border-bottom: 1px solid var(--Colors-Border-border-secondary, rgba(233, 234, 235, 1));
+    border-bottom: 1px solid  rgba(233, 234, 235, 1);
     padding-bottom: 12px;
     position: relative;
 }
